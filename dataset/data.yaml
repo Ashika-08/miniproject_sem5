@@ -1,0 +1,13 @@
+train: C:\miniproject\skincare\dataset\train\images
+val: C:\miniproject\skincare\dataset\valid\images
+
+
+nc: 3
+names: ['acne', 'eyebag', 'skin redness']
+
+roboflow:
+  workspace: 22euai006-ashika-s-m
+  project: skin-care-prediction-system
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/22euai006-ashika-s-m/skin-care-prediction-system/dataset/1
