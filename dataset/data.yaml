@@ -1,6 +1,5 @@
-train: C:\miniproject\skincare\dataset\train\images
-val: C:\miniproject\skincare\dataset\valid\images
-
+train: C:\Users\Atimanyu\OneDrive\Documents\programs\Projects\miniproject_sem5\dataset\train\images
+val: C:\Users\Atimanyu\OneDrive\Documents\programs\Projects\miniproject_sem5\dataset\valid\images
 
 nc: 3
 names: ['acne', 'eyebag', 'skin redness']
