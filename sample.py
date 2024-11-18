@@ -3,7 +3,7 @@ from PIL import Image
 import cv2
 import torch
 import matplotlib.pyplot as plt
-model = YOLO(r'C:\Users\Atimanyu\OneDrive\Documents\programs\Projects\miniprojectv2\runs\detect\train\weights\best.pt')
+model = YOLO(r'miniproject_sem5\yolov8n.pt')
 img = Image.open('test2.bmp')
 results = model(img)
 img_cv2 = cv2.imread('test2.bmp')
